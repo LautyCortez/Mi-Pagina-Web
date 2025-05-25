@@ -15,8 +15,8 @@ const ContactSection: React.FC = () => {
         </svg>
       ),
       title: t('contact.email'),
-      content: 'hola@markelramiro.com',
-      link: 'mailto:hola@markelramiro.com'
+      content: 'lautycortez725@gmail.com',
+      link: 'mailto:lautycortez725@gmail.com'
     },
     {
       icon: (
@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
         </svg>
       ),
       title: t('contact.location'),
-      content: 'Bilbao, Spain'
+      content: 'Santa Fe, Argentina'
     }
   ];
 
@@ -38,7 +38,7 @@ const ContactSection: React.FC = () => {
         </svg>
       ),
       title: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/markel-ramiro-vaquero-92530319b/'
+      link: 'https://www.linkedin.com/in/lautaacortezz/'
     },
     {
       icon: (
@@ -47,7 +47,7 @@ const ContactSection: React.FC = () => {
         </svg>
       ),
       title: 'GitHub',
-      link: 'https://github.com/Riemann-def'
+      link: 'https://github.com/LautyCortez'
     }
   ];
 

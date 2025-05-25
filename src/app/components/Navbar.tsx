@@ -43,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#hero" className="flex items-center">
-            <span className="text-xl font-space font-bold text-blue-600">Markel Ramiro</span>
+            <span className="text-xl font-space font-bold text-blue-600">Lautaro Cortez</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -65,7 +65,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             
             <div className="pl-4 border-l border-gray-200">
               <a
-                href="/CV-markel-ramiro.pdf"
+                href="/Curriculum Vitae Cortez Lautaro.pdf"
                 download
                 className="btn-primary text-sm py-2"
               >
@@ -89,6 +89,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             >
               <span className="text-sm font-medium">{language === 'es' ? 'ES' : 'EN'}</span>
             </button>
+
             
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -124,7 +125,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
                 </a>
               ))}
               <a
-                href="/CV-markel-ramiro.pdf"
+                href="/Curriculum Vitae Cortez Lautaro.pdf"
                 download
                 className="btn-primary text-center"
                 onClick={() => setIsMobileMenuOpen(false)}
