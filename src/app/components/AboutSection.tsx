@@ -82,7 +82,7 @@ const AboutSection: React.FC = () => {
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
-                <span>Junior Full Stack Developer</span>
+                <span>Desarrollador Junior Full Stack</span>
               </div>
               <div className="flex items-center mb-4">
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -113,19 +113,19 @@ const AboutSection: React.FC = () => {
             </div>
             
             <div className="col-span-3 p-8">
-              <h3 className="text-2xl font-bold mb-6 text-gray-800">Professional Profile</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gray-800">Perfil Profesional</h3>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  As a junior full stack developer, I specialize in the development of web and mobile applications. 
-                  My main focus is creating technological solutions that efficiently solve business problems and are scalable.
+                  Como desarrollador junior full stack, me especializo en el desarrollo de aplicaciones web y móviles. 
+                  Mi enfoque principal es crear soluciones tecnológicas que resuelvan problemas empresariales de manera eficiente y escalable.
                 </p>
                 <p>
-                  Currently working on personal projects as a full stack developer. 
-                  I am passionate about using advanced technologies to create practical applications that provide measurable business value.
+                  Actualmente trabajando en Proyectos Personales como desarrollador full stack . 
+                  Estoy apasionado por el uso de tecnologías avanzadas para crear aplicaciones prácticas que proporcionen valor empresarial medible.
                 </p>
                 <p>
-                  I have a solid foundation in JavaScript, TypeScript, React, Next.js, Node.js, and cloud technologies, with experience in 
-                  the entire development cycle from data preparation to model deployment and monitoring.
+                  Tengo una sólida base en JavaScript, TypeScript, React, Next.js, Node.js, y tecnologías en la nube, con experiencia en 
+                  el ciclo completo de desarrollo de aplicaciones web y móviles desde la preparación de datos hasta el despliegue y monitoreo de modelos.
                 </p>
               </div>
             </div>

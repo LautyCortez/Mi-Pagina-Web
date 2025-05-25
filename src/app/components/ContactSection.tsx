@@ -120,7 +120,7 @@ const ContactSection: React.FC = () => {
             <div className="mt-10 text-center">
               <motion.a
                 whileHover={{ scale: 1.05 }}
-                href="/CV-markel-ramiro.pdf"
+                href="/Curriculum Vitae Cortez Lautaro.pdf"
                 download
                 className="inline-flex items-center px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors"
               >

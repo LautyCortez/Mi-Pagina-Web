@@ -16,8 +16,8 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <div className="text-2xl font-bold font-space gradient-text mb-2">Markel Ramiro</div>
-            <p className="text-zinc-500 text-sm">ML Engineer & Data Scientist</p>
+            <div className="text-2xl font-bold font-space gradient-text mb-2">Lautaro Cortez</div>
+            <p className="text-zinc-500 text-sm">Desarrollador Junior De Software</p>
           </div>
           
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://github.com/Riemann-def"
+                href="https://github.com/LautyCortez"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-zinc-400 hover:text-white transition-colors"
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://www.linkedin.com/in/markel-ramiro-vaquero-92530319b/"
+                href="https://www.linkedin.com/in/lautaacortezz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-zinc-400 hover:text-white transition-colors"
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="mailto:hola@markelramiro.com"
+                href="mailto:lautycortez725@gmail.com"
                 className="text-zinc-400 hover:text-white transition-colors"
                 aria-label="Email"
               >
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-8 pt-6 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-zinc-600 text-sm">&copy; {currentYear} Markel Ramiro. {t('footer.rights')}</p>
+          <p className="text-zinc-600 text-sm">&copy; {currentYear} Lautaro Cortez {t('footer.rights')}</p>
           
           <div className="mt-4 md:mt-0 text-zinc-600 text-xs">
             {t('footer.built')} <span className="text-cyan-500">♥</span> {t('footer.using')}

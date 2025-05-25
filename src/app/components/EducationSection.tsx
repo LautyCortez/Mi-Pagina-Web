@@ -7,30 +7,27 @@ const EducationSection = () => {
   
   const education = [
     {
-      degree: "BSc in Artificial Intelligence",
-      institution: "University of the Basque Country (UPV/EHU)",
-      location: "San Sebastian, Spain",
-      period: "Sep 2020 - Jul 2024",
-      description: "Member of the 1st graduating class of the AI program. Final Project: 'Anomaly detection and deployment in Kubernetes' (Grade: 9/10).",
+      degree: "Tecnicatura Superior en Desarrollo de Software",
+      institution: "Instituto de Estudios Superiores de Santa Fe",
+      location: "Santa Fe, Argentina",
+      period: "Mar 2021 - Dec 2024",
+      description: "Graduado con honores en la Tecnicatura Superior en Desarrollo de Software. Proyecto Final: 'Sistema de Gestion de Clinica' (Nota: 8/10).",
       highlights: [
-        "Relevant courses: Machine Learning & Neural Networks, Massive Data Processing, Temporal Data Analysis",
-        "University Entrance Exam Score: 12.24/14 (87.4%)"
+        "Aprendizaje de lenguajes de programacion como Java, Javascript, Python, React, Node.js y SQL",
+        "Promedio de notas: 7.98/10"
       ]
     },
     {
-      degree: "Applied Data Science Program",
-      institution: "Zrive",
+      degree: "Curso de IA y Machine Learning",
       location: "Online",
-      period: "Apr 2025 - Jul 2025",
-      description: "Intensive 15-week part-time program designed to develop technical and practical skills in Data Science.",
+      period: "Enero 2025",
+      description: "Curso de IA y Machine Learning",
       highlights: [
-        "Exploratory Data Analysis projects with real-world datasets",
-        "Statistical Learning and ML fundamentals including linear models, regularization techniques, and evaluation metrics",
-        "Currently working on ML classification problems for e-commerce applications",
-        "Upcoming: Real business project with industry partner"
-      ],
-      progress: 33,
-      currentModule: "Module 3: Fundamentals of Statistical Learning"
+        "Aprendizaje de conceptos basicos de IA",
+        "Aprendizaje de herramientas de IA como ChatGPT, Langchain, Llama, etc",
+        "Aprendizaje de conceptos basicos de Machine Learning",
+        "Aprendizaje de herramientas de Machine Learning como Scikit-learn, Pandas, Numpy, etc"
+      ]
     }
   ];
 
@@ -44,10 +41,10 @@ const EducationSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Education</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Educacion</h2>
           <div className="h-1 w-20 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            My formal education and professional development journey
+            Mis estudios y cursos
           </p>
         </motion.div>
         
@@ -74,7 +71,7 @@ const EducationSection = () => {
                 
                 <p className="text-gray-700 mb-4">{edu.description}</p>
                 
-                {edu.progress && (
+                {/* {edu.progress && (
                   <div className="mb-4">
                     <div className="flex justify-between items-center mb-1">
                       <span className="text-sm font-medium text-gray-700">Program progress</span>
@@ -90,7 +87,7 @@ const EducationSection = () => {
                       Currently at: {edu.currentModule}
                     </p>
                   </div>
-                )}
+                )} */}
                 
                 <div className="mt-4">
                   <h4 className="font-semibold text-gray-800 mb-2">Highlights:</h4>

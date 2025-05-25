@@ -54,10 +54,10 @@ const HeroSection: React.FC = () => {
           >
             <div className="max-w-2xl">
               <span className="inline-block px-3 py-1 text-sm font-medium bg-blue-100 text-blue-800 rounded-full mb-6">
-                Artificial Intelligence & Data Science
+               Desarrollador de Software Junior Full Stack
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">
-                <span className="text-blue-600">Markel Ramiro</span><br/>
+                <span className="text-blue-600">Lautaro Cortez</span><br/>
                 <span>{t('hero.title')}</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
@@ -76,7 +76,7 @@ const HeroSection: React.FC = () => {
                 </motion.a>
                 <motion.a 
                   whileHover={{ scale: 1.05 }}
-                  href="https://github.com/Riemann-def" 
+                  href="https://github.com/LautyCortez" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="btn-outline"
@@ -110,8 +110,8 @@ const HeroSection: React.FC = () => {
               {/* Profile image with decorative elements */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <Image
-                  src="/perfil-markel.jpg"
-                  alt="Markel Ramiro"
+                  src="/LautaroCortez.jpg"
+                  alt="Lautaro Cortez"
                   fill
                   className="object-cover"
                   priority
