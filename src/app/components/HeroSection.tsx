@@ -54,7 +54,7 @@ const HeroSection: React.FC = () => {
           >
             <div className="max-w-2xl">
               <span className="inline-block px-3 py-1 text-sm font-medium bg-blue-100 text-blue-800 rounded-full mb-6">
-               Desarrollador de Software Junior Full Stack
+              {t('hero.degree')}
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900 leading-tight">
                 <span className="text-blue-600">Lautaro Cortez</span><br/>

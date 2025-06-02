@@ -155,12 +155,10 @@ const ProjectsSection: React.FC = () => {
       id: 1,
       title: t('projects.anomaly.title'),
       description: t('projects.anomaly.desc'),
-      image: "/result.gif",
-      technologies: ["Python", "Kubernetes", "Prometheus", "Flask", "Scikit-learn"],
+      image: "/clinica.png",
+      technologies: ["Angular", "Javascript", "MySQL", "Node.js" ],
       links: {
-        code: "https://github.com/Riemann-def/anomaly-detection",
-        case: "https://www.linkedin.com/pulse/monitoreo-y-detecci%C3%B3n-de-anomal%C3%ADas-en-apis-con-flask-ramiro-vaquero-mf2yc",
-        download: "/tfg.pdf",
+        code: "https://github.com/alejocastelnovo/ClinicaVirtual.git",
       },
       category: "ml",
       featured: true
@@ -169,10 +167,10 @@ const ProjectsSection: React.FC = () => {
       id: 2,
       title: t('projects.docmind.title'),
       description: t('projects.docmind.desc'),
-      image: "/docmind.jpg",
-      technologies: ["Python", "OpenAI", "Anthropic", "Azure", "OCR"],
+      image: "/Hospedajes.png",
+      technologies: ["Angular", "Typescript", "Node.js", "MySQL" ],
       links: {
-        case: "https://www.linkedin.com/posts/markel-ramiro-vaquero-92530319b_cu%C3%A1nto-dinero-ha-procesado-wippass-para-activity-7190682971429883904-Je80"
+        code: "https://github.com/LautyCortez/TallerI2t.git"
       },
       category: "nlp"
     },
@@ -180,11 +178,10 @@ const ProjectsSection: React.FC = () => {
       id: 3,
       title: t('projects.timeseries.title'),
       description: t('projects.timeseries.desc'),
-      image: "/time-series.jpg",
-      technologies: ["Python", "TensorFlow", "LSTM", "Transformers", "Pandas"],
+      image: "/Loteria.jpg",
+      technologies: ["React Native, Java", "MySQL" ],
       links: {
-        code: "https://github.com/Riemann-def/timeseries-forecasting",
-        demo: "https://huggingface.co/spaces/markel/time-series-forecasting"
+        code: "https://github.com/Ivanpitashny/tramites_Loterias.git",
       },
       category: "ml"
     },
@@ -192,10 +189,10 @@ const ProjectsSection: React.FC = () => {
       id: 4,
       title: t('projects.nlp.title'),
       description: t('projects.nlp.desc'),
-      image: "/SmartQuery.PNG",
-      technologies: ["Python", "RAG", "LangChain", "SQL", "OpenAI"],
+      image: "/Mipagina.png",
+      technologies: ["Next.js , React", "Vercel"],
       links: {
-        code: "https://github.com/Riemann-def/smart-query"
+        code: "https://github.com/LautyCortez/Mi-Pagina-Web"
       },
       category: "nlp"
     }
@@ -301,9 +298,9 @@ const ProjectsSection: React.FC = () => {
                             </a>
                           )}
                           
-                          {project.links.case && (
+                          {project.links.code && (
                             <a 
-                              href={project.links.case}
+                              href={project.links.code}
                               target="_blank"
                               rel="noopener noreferrer" 
                               className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm transition-colors flex items-center gap-2"
@@ -315,7 +312,7 @@ const ProjectsSection: React.FC = () => {
                             </a>
                           )}
                           
-                          {project.links.demo && (
+                          {/* {project.links.demo && (
                             <a 
                               href={project.links.demo}
                               target="_blank"
@@ -328,9 +325,9 @@ const ProjectsSection: React.FC = () => {
                               </svg>
                               {t('projects.viewdemo')}
                             </a>
-                          )}
+                          )} */}
                           
-                          {project.links.download && (
+                          {/* {project.links.download && (
                             <a 
                               href={project.links.download}
                               download
@@ -341,7 +338,7 @@ const ProjectsSection: React.FC = () => {
                               </svg>
                               {t('projects.download')}
                             </a>
-                          )}
+                          )} */}
                         </div>
                       </div>
                     </div>
@@ -414,9 +411,9 @@ const ProjectsSection: React.FC = () => {
                         </a>
                       )}
                       
-                      {project.links.case && (
+                      {project.links.code && (
                         <a 
-                          href={project.links.case}
+                          href={project.links.code}
                           target="_blank"
                           rel="noopener noreferrer" 
                           className="px-3 py-1.5 rounded-lg bg-blue-100 hover:bg-blue-200 text-blue-800 text-sm transition-colors flex items-center gap-1.5"
@@ -428,7 +425,7 @@ const ProjectsSection: React.FC = () => {
                         </a>
                       )}
                       
-                      {project.links.demo && (
+                     {/*  {project.links.demo && (
                         <a 
                           href={project.links.demo}
                           target="_blank"
@@ -441,7 +438,7 @@ const ProjectsSection: React.FC = () => {
                           </svg>
                           {t('projects.viewdemo')}
                         </a>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </motion.div>
@@ -457,7 +454,7 @@ const ProjectsSection: React.FC = () => {
             className="mt-16 text-center"
           >
             <a 
-              href="https://github.com/Riemann-def" 
+              href="https://github.com/LautyCortez"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gray-900 hover:bg-gray-800 text-white transition-all transform hover:scale-105"

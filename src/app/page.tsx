@@ -51,7 +51,7 @@ export default function Home() {
       <AboutSection />
       <EducationSection />
       <SkillsSection />
-      <ZriveProjectSection />
+      {/* <ZriveProjectSection /> */}
       <ProjectsSection />
       <ExperienceSection />
       <ContactSection />

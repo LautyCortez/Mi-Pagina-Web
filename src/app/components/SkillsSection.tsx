@@ -44,37 +44,30 @@ const SkillsSection: React.FC = () => {
         { icon: "/openai.svg", name: "OpenAI" },
         { icon: "/python.svg", name: "Python" },
         { icon: "/tensorflow.svg", name: "TensorFlow" },
-        { icon: "/pytorch.svg", name: "PyTorch" },
-        { icon: "/scikit-learn.svg", name: "Scikit-learn" },
-        { icon: "/huggingface.svg", name: "Hugging Face" },
-        { icon: "/langchain.svg", name: "LangChain" },
-        { icon: "/pandas.svg", name: "Pandas" },
-        { icon: "/numpy.svg", name: "NumPy" }
+        
       ]
     },
     {
       title: t('skills.categories.backend'),
       technologies: [
-        { icon: "/kubernetes.svg", name: "Kubernetes" },
         { icon: "/docker.svg", name: "Docker" },
         { icon: "/amazon-aws.svg", name: "AWS" },
         { icon: "/azure.png", name: "Azure" },
-        { icon: "/flask.svg", name: "Flask" },
         { icon: "/node.svg", name: "Node.js" },
-        { icon: "/prometheus.svg", name: "Prometheus" },
-        { icon: "/grafana.svg", name: "Grafana" }
+        { icon: "/JavaScript.webp", name: "JavaScript" },
+        { icon: "/Typescript.webp", name: "TypeScript" },
+        { icon: "/Java.webp", name: "Java" },
       ]
     },
     {
       title: t('skills.categories.databases'),
       technologies: [
-        { icon: "/postgres.svg", name: "PostgreSQL" },
         { icon: "/mysql-original-wordmark.svg", name: "MySQL" },
+        { icon: "/PhpMyAdmin.webp", name: "PhpMyAdmin" },
         { icon: "/mongodb.svg", name: "MongoDB" },
         { icon: "/react.svg", name: "React" },
         { icon: "/next.svg", name: "Next.js" },
-        { icon: "/tailwind.svg", name: "Tailwind" },
-        { icon: "/sveltekit.svg", name: "SvelteKit" }
+        { icon: "/angular-icon.webp", name: "Angular" },
       ]
     }
   ];
@@ -130,11 +123,11 @@ const SkillsSection: React.FC = () => {
           <div className="flex flex-wrap justify-center gap-8">
             {[
               { icon: "/python.svg", name: "Python" },
-              { icon: "/tensorflow.svg", name: "TensorFlow" },
+              { icon: "/angular-icon.webp", name: "Angular" },
               { icon: "/docker.svg", name: "Docker" },
-              { icon: "/kubernetes.svg", name: "Kubernetes" },
-              { icon: "/amazon-aws.svg", name: "AWS" },
-              { icon: "/openai.svg", name: "OpenAI" },
+              { icon: "/next.svg", name: "Nexts.js" },
+              { icon: "/mysql-original-wordmark.svg", name: "MySQL" },
+              { icon: "/node.svg", name: "Node.js" },
             ].map((tech, index) => (
               <motion.div
                 key={index}
