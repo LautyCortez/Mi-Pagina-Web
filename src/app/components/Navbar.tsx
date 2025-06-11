@@ -65,7 +65,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             
             <div className="pl-4 border-l border-gray-200">
               <a
-                href="/Curriculum Vitae Cortez Lautaro.pdf"
+                href="/CortezLautaroCV.pdf"
                 download
                 className="btn-primary text-sm py-2"
               >
@@ -125,7 +125,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
                 </a>
               ))}
               <a
-                href="/Curriculum Vitae Cortez Lautaro.pdf"
+                href="/CortezLautaroCV.pdf"
                 download
                 className="btn-primary text-center"
                 onClick={() => setIsMobileMenuOpen(false)}
